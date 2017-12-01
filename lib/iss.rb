@@ -1,5 +1,7 @@
+require_relative 'interface/imposto'
+
 class ISS
-  def calcula_iss(orcamento)
-    orcamento * 0.06
+  def calcula(orcamento)
+    orcamento.valor * 0.06
   end
 end
